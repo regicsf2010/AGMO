@@ -1,0 +1,15 @@
+NSGAII.java
+- Basicamente existem dois métodos mais importantes: fastNonDominatedSort e calculateCrowdingDistances.
+- No caso desta classe NSGAII.java, ela implementa duas interfaces Fitness e SurvivorSelection. Mas vocês devem adequá-la ao problema que vocês estão trabalhando.
+- Percebam que a população é um array simples de cromossomos, isto deve ser adaptado ao formato do cromossomo de vocês também.
+- A classe Chromosome de vocês requer que tenha um método dominates(Chromosome). É um método que retorna um booleano e verifica se o cromossomo p domina o cromossomo q.
+- Há uma classe interna chamada Domination. Ela serve para auxiliar a classe NSGAII.
+
+
+SPEAII.java
+- O arquivo é um ArrayList estático, por conveniência.
+- Há uma classe interna chamada SpeaIIChromosomeDistance que serve como auxílio para a classe SPEAII.
+- Todos os métodos do SPEAII se encontra neste classe: cálculo da força, cálculo do fitness bruto, (RawFitness) e cálculo da densidade.
+- A classe SPEAII.java também implementa duas interfaces, adequem está classe ao seu propósito.
+
+
