@@ -12,4 +12,6 @@ SPEAII.java
 - Todos os métodos do SPEAII se encontra neste classe: cálculo da força, cálculo do fitness bruto, (RawFitness) e cálculo da densidade.
 - A classe SPEAII.java também implementa duas interfaces, adequem está classe ao seu propósito.
 
-
+NSGAII.cpp
+- Há uma implementação da interface NSGAII na linguagem de programação C++.
+- Para implementá-la, deve-se seguir as mesma orientações especificadas pela implementação em Java.
